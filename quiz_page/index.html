@@ -5,14 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Welcome to the placeholder quiz page about placeholding">
+    <link rel="stylesheet" href="styles.css">
     <title>Quiz</title>
 </head>
+<body>
 <header>
-
+    <img id="logo" src="./img/alogo-1.webp" alt="Placeholder logo">
+    <h1>Placeholder Quiz</h1>
+    <nav>
+        <ul>
+            <li><a>INFO</a></li>
+            <li><a>TOPIC_1</a></li>
+            <li><a>TOPIC_2</a></li>
+        </ul>
+    </nav>
 </header>
 <main>
-    <body>
-        
-    </body>
+    <form method="post" action="https://freecodecamp.org/practice-project/accessibility-quiz">
+        <section role="region" aria-labelledby="student-info"><h2 id="student-info">Student Info</h2></section>
+        <section role="region" aria-labelledby="t1-questions"><h2 id="t1-questions">Topic 1 Questions</h2></section>
+        <section role="region" aria-labelledby="t2-questions"><h2 id="t2-questions">Topic 2 Questions</h2></section>
+      </form>
 </main>
+</body>
 </html>
