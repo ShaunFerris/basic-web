@@ -40,14 +40,65 @@
         <section role="region" aria-labelledby="t1-questions">
             <h2 id="t1-questions">Topic 1 Questions</h2>
             <div class="question-block">
-                <p>1</p><fieldset class="question"></fieldset>
+                <p>1</p>
+                <fieldset class="question" name="q1">
+                    <legend>This is an adequate quiz layout</legend>
+                    <ul class="answers-list">
+                      <li>
+                        <label for="q1-a1">
+                            <input type="radio" id="q1-a1" value="True" name="q1"/>
+                            True
+                        </label>
+                    </li>
+                      <li>
+                        <label for="q1-a2">
+                            <input type="radio" id="q1-a2" value="False" name="q1"/>
+                            False
+                        </label>
+                    </li>
+                    </ul>
+                </fieldset>
             </div>
             <div class="question-block">
-                <p>2</p><fieldset class="question"></fieldset>
+                <p>2</p>
+                <fieldset class="question" name="q2">
+                    <legend>This is a second true/false question</legend>
+                    <ul class="answers-list">
+                      <li>
+                        <label for="q2-a1">
+                            <input type="radio" id="q2-a1" value="True" name="q2"/>
+                            True
+                        </label>
+                    </li>
+                      <li>
+                        <label for="q1-a2">
+                            <input type="radio" id="q2-a2" value="False" name="q2"/>
+                            False
+                        </label>
+                    </li>
+                    </ul>
+                </fieldset>
             </div>
         </section>
         <section role="region" aria-labelledby="t2-questions">
             <h2 id="t2-questions">Topic 2 Questions</h2>
+            <div class="formrow">
+                <div class="question-block">
+                    <label for="t2-q1">Question content goes here</label>
+                </div>
+                <div class="answer">
+                    <select name="t2-q1" id="t2-q1" required>
+                        <option value="">Select an option</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                      </select>
+                </div>
+                <div class="question-block">
+                    <label>Question content goes here</label>
+                </div>
+                <div class="answer"></div>
+                    <textarea rows="5" cols="50" placeholder="Enter your answer..."></textarea>
+              </div>
         </section>
       </form>
 </main>

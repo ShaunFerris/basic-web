@@ -58,3 +58,11 @@ h2 {
     white-space: nowrap;
     border: 0;
 }
+
+label {
+    color: black;
+}
+
+p::before {
+    content: "Question #";
+}
