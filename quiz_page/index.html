@@ -14,17 +14,41 @@
     <h1>Placeholder Quiz</h1>
     <nav>
         <ul>
-            <li><a>INFO</a></li>
-            <li><a>TOPIC_1</a></li>
-            <li><a>TOPIC_2</a></li>
+            <li><a href="#student-info">INFO</a></li>
+            <li><a href="t1-questions">TOPIC_1</a></li>
+            <li><a href="t2-questions">TOPIC_2</a></li>
         </ul>
     </nav>
 </header>
 <main>
     <form method="post" action="https://freecodecamp.org/practice-project/accessibility-quiz">
-        <section role="region" aria-labelledby="student-info"><h2 id="student-info">Student Info</h2></section>
-        <section role="region" aria-labelledby="t1-questions"><h2 id="t1-questions">Topic 1 Questions</h2></section>
-        <section role="region" aria-labelledby="t2-questions"><h2 id="t2-questions">Topic 2 Questions</h2></section>
+        <section role="region" aria-labelledby="student-info">
+            <h2 id="student-info">Student Info</h2>
+            <div class="info">
+                <label for="student-name">Name:</label>
+                <input id="student-name" type="text" name="student-name" placeholder="Joey Big Dick"/>
+            </div>
+            <div class="info">
+                <label for="student-email">Email:</label>
+                <input id="student-email" type="email" name="student-email"/>
+            </div>
+            <div class="info">
+                <label for="birth-date">D.O.B.:<span class="sr-only">(Date of Birth)</span></label>
+                <input id="birth-date" type="date" name="student-DOB"/>
+            </div>
+        </section>
+        <section role="region" aria-labelledby="t1-questions">
+            <h2 id="t1-questions">Topic 1 Questions</h2>
+            <div class="question-block">
+                <p>1</p><fieldset class="question"></fieldset>
+            </div>
+            <div class="question-block">
+                <p>2</p><fieldset class="question"></fieldset>
+            </div>
+        </section>
+        <section role="region" aria-labelledby="t2-questions">
+            <h2 id="t2-questions">Topic 2 Questions</h2>
+        </section>
       </form>
 </main>
 </body>
