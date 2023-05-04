@@ -7,7 +7,8 @@ body {
 
 #logo {
     width: max(100px, 18vw);
-    background-color: #9090af;
+    height: inherit;
+    aspect-ratio: 30 / 10;
     padding: 0.4rem;
 }
 
@@ -16,11 +17,16 @@ header {
     height: 50px;
     background-color: #1b1b32;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
 }
 
 h1 {
     color: #f1be32;
     font-size: min(5vw, 1.2em);
+    text-align: center;
 }
 
 nav {
@@ -31,13 +37,13 @@ nav {
 
 nav > ul {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
-}
-
-li {
-    color: azure;
-}
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+  }
 
 h1, h2 {
     font-family: Verdana, sans-serif;
@@ -65,4 +71,27 @@ label {
 
 p::before {
     content: "Question #";
+}
+
+nav > ul > li {
+    color: #dfdfe2;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+  
+}
+
+nav > ul >li:hover {
+    background-color: #dfdfe2;
+    color: #1b1b32;
+    cursor: pointer;
+}
+
+li > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+main {
+    padding-top: 50px;
 }
