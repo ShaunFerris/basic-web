@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tribute Page</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 </head>
@@ -12,11 +12,15 @@
 <main id="main">
     <div class="container">
     <div class="header">
-        <h1>The Life and Times of Johnson Hand</h1>
+        <h1 id="title">The Life and Times of Johnson Hand</h1>
     </div>
     <div class="image-block" id="img-div">    
         <img id="image" src="./img/man-placeholder-e1520494457998.png" alt="placeholder image of a mans silouhette">
+        <div id="img-caption">
+            <p>The only known image of the subject</p>
+        </div>
     </div>
+    <section id="tribute-info">
     <div class="content">
         <h2>Origins and Early Life</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit error dicta ad beatae excepturi nulla? Perspiciatis enim praesentium doloribus fugiat voluptate culpa esse quos cum optio voluptatibus. Architecto, consequatur incidunt!</p>
@@ -24,6 +28,20 @@
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam placeat quisquam molestiae maiores, perspiciatis architecto dignissimos eaque asperiores eius aperiam fuga quis. Dicta quis nam et optio deleniti doloribus ut.</p>
     </div>
     </div>
+    <div id="footer">
+        <h3>
+            If you have time, you should read more about this incredible human
+            being on his
+            <a
+            id="tribute-link"
+            href="https://en.wikipedia.org/wiki/John_Doe"
+            target="_blank"
+            >
+            Wikipedia entry
+            </a>.
+        </h3>
+    </div>
+</section>
 </main>
 </body>
 </html>
