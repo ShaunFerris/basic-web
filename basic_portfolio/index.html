@@ -5,34 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>__Name__ Portfolio</title>
+    <!--Bootstrap CSS cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <!--Compiled stylesheet-->
     <link rel="stylesheet" href="/styles/main.css">
-    <!--Bootstrap CSS cdn-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!--Font awesome cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <!--Google font-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <!--Bootstrap JS cdn-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <!--jQuery cdn-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!--Bootstrap JS and jQuery cdns-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     <!--JS-->
     <script src="/main.js"></script>
 </head>
 <body data-spy="scroll" data-target="#navbar">
-    <div class="navbar navbar-default navbar-fixed-top dark">
+    <div class="navbar navbar-dark bg-dark fixed-top navbar-expand-lg">
         <div class="container">
-            <div class="navbar-header">
-                <a href="#" class="navbar-brand"><i class="fa-light fa-rocket-launch" aria-hidden="true">Placeholder Ltd</i></a>
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <div class="navbar-brand">
+                <a href="#" class="navbar-brand"><i class="fa fa-rocket" aria-hidden="true"></i> Placeholder Ltd</a>
+                <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle Navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
-            <div id="navbar" class="navbar-collapse collapse">
+            <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#about">About</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
@@ -44,10 +41,10 @@
     <div class="jumbotron" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-xs-6">
-                    <img src="img/man-placeholder-e1520494457998.png" alt="placeholder portrait" class="img-responsive img-circle">
+                <div class="col-6">
+                    <img src="img/man-placeholder-e1520494457998.png" alt="placeholder portrait" class="img-fluid img-circle">
                 </div>
-                <div class="col-xs-12">
+                <div class="col-12">
                     <h2>Hi! My name is Placholder!</h2>
                     <h3>Professional level dog trainer, camping consultant, and reality warper</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi ab eaque accusantium laudantium repellendus ipsa rem voluptas ut illo veritatis asperiores architecto, sunt, voluptatibus corporis beatae similique excepturi praesentium porro?</p>
@@ -59,29 +56,29 @@
     <div class="container portfolio" id="portfolio">
         <h2><i class="fa fa-code" aria-hidden="true"></i> Portfolio</h2>
         <div class="row">
-            <div class="col-md-4 portfolio-item">
+            <div class="col-lg-4 portfolio-item">
                 <a href="#">
-                    <img class="img-responsive" src="https://placehold.co/600x400/blue-green/white?text=Placeholder+Project" alt="placeholder portfolio image/link">
+                    <img class="img-fluid" src="https://placehold.co/600x400/blue-green/white?text=Placeholder+Project" alt="placeholder portfolio image/link">
                 </a>
             </div>
-            <div class="col-md-4 portfolio-item">
+            <div class="col-lg-4 portfolio-item">
                 <a href="#">
-                    <img class="img-responsive" src="https://placehold.co/600x400/blue-green/white?text=Placeholder+Project" alt="placeholder portfolio image/link">
+                    <img class="img-fluid" src="https://placehold.co/600x400/blue-green/white?text=Placeholder+Project" alt="placeholder portfolio image/link">
                 </a>
             </div>
-            <div class="col-md-4 portfolio-item">
+            <div class="col-lg-4 portfolio-item">
                 <a href="#">
-                    <img class="img-responsive" src="https://placehold.co/600x400/blue-green/white?text=Placeholder+Project" alt="placeholder portfolio image/link">
+                    <img class="img-fluid" src="https://placehold.co/600x400/blue-green/white?text=Placeholder+Project" alt="placeholder portfolio image/link">
                 </a>
             </div>
-            <div class="col-md-4 portfolio-item">
+            <div class="col-lg-4 portfolio-item">
                 <a href="#">
-                    <img class="img-responsive" src="https://placehold.co/600x400/blue-green/white?text=Placeholder+Project" alt="placeholder portfolio image/link">
+                    <img class="img-fluid" src="https://placehold.co/600x400/blue-green/white?text=Placeholder+Project" alt="placeholder portfolio image/link">
                 </a>
             </div>
-            <div class="col-md-4 portfolio-item">
+            <div class="col-lg-4 portfolio-item">
                 <a href="#">
-                    <img class="img-responsive" src="https://placehold.co/600x400/blue-green/white?text=Placeholder+Project" alt="placeholder portfolio image/link">
+                    <img class="img-fluid" src="https://placehold.co/600x400/blue-green/white?text=Placeholder+Project" alt="placeholder portfolio image/link">
                 </a>
             </div>
         </div>
@@ -90,7 +87,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2><i class="fa-light fa-mailbox"></i> Contact</h2>
+                    <h2><i class="fa fa-envelope"></i> Contact</h2>
                     <p>
                         Want to contact me? I am available for job interviews, news interviews, and private pet therapy sessions and am available through email:
                         <a href="mailto:placeholder@place.com">placeholder@place.com</a>
