@@ -1,3 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
+/* Layout */
 body {
   position: relative;
+  margin: 3rem 0 0 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.938rem;
+  color: #2f323a;
+  background-color: #9f87af;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.jumbotron.about {
+  background-color: #2f323a;
+  color: #fff;
+}
+
+.container.portfolio {
+  padding-bottom: 35px;
+}
+
+.container.portfolio .portfolio-item {
+  margin-top: 15px;
+}
+
+a {
+  color: #b1ddf1;
+}
+
+h2 i {
+  color: #b1ddf1;
+}
+
+a:hover, a:focus {
+  color: #b1ddf1;
+  text-decoration: none;
+}
+
+.jumbotron.contact {
+  padding: 15px 0px;
+  background-color: #2f323a;
+  color: #fff;
+}
+
+.jumbotron.contact p {
+  color: #F1F2F2;
+}
+
+.list-inline.social li {
+  font-size: 25px;
 }/*# sourceMappingURL=main.css.map */
