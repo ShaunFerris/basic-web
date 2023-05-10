@@ -7,6 +7,10 @@ body {
     background-color: $col-b;
 }
 
+.nav-custom {
+    background-color: $col-b;
+}
+
 h2 {
     font-size: $h2-font-size;
     font-weight: bold;
@@ -15,6 +19,10 @@ h2 {
 .jumbotron.about {
     background-color: $border-col;
     color: #fff;
+}
+
+hr {
+    background-color: $col-a;
 }
 
 .container.portfolio {

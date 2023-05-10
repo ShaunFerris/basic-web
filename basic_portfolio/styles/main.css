@@ -9,6 +9,10 @@ body {
   background-color: #9f87af;
 }
 
+.nav-custom {
+  background-color: #9f87af;
+}
+
 h2 {
   font-size: 2rem;
   font-weight: bold;
@@ -17,6 +21,10 @@ h2 {
 .jumbotron.about {
   background-color: #2f323a;
   color: #fff;
+}
+
+hr {
+  background-color: #b1ddf1;
 }
 
 .container.portfolio {
